@@ -3,6 +3,7 @@ import bootstrap from "bootstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Inventory from "./Inventory";
 import Home from "./Home";
+import moment from "moment";
 
 import axios from "axios";
 
@@ -62,7 +63,9 @@ export default class NavBar extends React.Component {
                     </Link>
                   </li>
                 </ul>
-                <span class="navbar-text">Time is : {this.state.time} </span>
+                <span class="navbar-text">
+                  {moment().format("MMMM Do YYYY, h:mm:ss a")}
+                </span>
               </div>
             </nav>
           </div>
