@@ -5,7 +5,7 @@ export default class Inventory extends React.Component {
     super(props);
     this.state = {
       toAddItems: ["just a test", "Test the function ", "test 3"],
-      newItem: "Test New Item"
+      newItem: ""
     };
   }
 
@@ -33,11 +33,14 @@ export default class Inventory extends React.Component {
         <form>
           <input
             type="text"
-            placeholder="Type an Item Here!"
+            placeholder="Enter New Item!"
             value={this.state.newItem}
             onChange={this.onTextBoxChange}
           />
-          <button onClick={this.addItem}>Add Item!</button>
+
+          <button type="button" class="btn btn-dark m-2" onClick={this.addItem}>
+            Add Item!
+          </button>
         </form>
         <hr />
         <InvListContainer toAddItems={this.state.toAddItems} />
