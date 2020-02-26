@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Inventory_System/static/css/main.fa09abfb.chunk.css",
+    "main.js": "/Inventory_System/static/js/main.3245c219.chunk.js",
+    "main.js.map": "/Inventory_System/static/js/main.3245c219.chunk.js.map",
+    "runtime-main.js": "/Inventory_System/static/js/runtime-main.14dbee51.js",
+    "runtime-main.js.map": "/Inventory_System/static/js/runtime-main.14dbee51.js.map",
+    "static/css/2.3db4eb7d.chunk.css": "/Inventory_System/static/css/2.3db4eb7d.chunk.css",
+    "static/js/2.9e829f27.chunk.js": "/Inventory_System/static/js/2.9e829f27.chunk.js",
+    "static/js/2.9e829f27.chunk.js.map": "/Inventory_System/static/js/2.9e829f27.chunk.js.map",
+    "index.html": "/Inventory_System/index.html",
+    "precache-manifest.fb5571c962bdc57353317bf5b1ae42d8.js": "/Inventory_System/precache-manifest.fb5571c962bdc57353317bf5b1ae42d8.js",
+    "service-worker.js": "/Inventory_System/service-worker.js",
+    "static/css/2.3db4eb7d.chunk.css.map": "/Inventory_System/static/css/2.3db4eb7d.chunk.css.map",
+    "static/css/main.fa09abfb.chunk.css.map": "/Inventory_System/static/css/main.fa09abfb.chunk.css.map",
+    "static/js/2.9e829f27.chunk.js.LICENSE.txt": "/Inventory_System/static/js/2.9e829f27.chunk.js.LICENSE.txt",
+    "static/media/stock.png": "/Inventory_System/static/media/stock.47bb1941.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.14dbee51.js",
+    "static/css/2.3db4eb7d.chunk.css",
+    "static/js/2.9e829f27.chunk.js",
+    "static/css/main.fa09abfb.chunk.css",
+    "static/js/main.3245c219.chunk.js"
+  ]
+}
