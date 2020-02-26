@@ -34,7 +34,8 @@ export default function MaterialTableDeo() {
       // to add 'Export' function
       options={{
         exportButton: true,
-        selection: true
+        selection: true,
+        grouping: true
       }}
       title="Inventory"
       columns={state.columns}
