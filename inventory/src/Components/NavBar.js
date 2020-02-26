@@ -1,5 +1,5 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.css";
+import bootstrap from "bootstrap";
 // import the inventory and gome classess
 import Inventory from "./Inventory";
 import Home from "./Home";
