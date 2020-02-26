@@ -1,15 +1,18 @@
 import React from "react";
+// use material-table for table component
 import MaterialTable from "material-table";
-// import Button from "@material-ui/core/Button";
+// import Alert from "@material-ui/core/Button";
 
 export default function InventoryTable() {
   const [state, setState] = React.useState({
     columns: [
+      // putting dummy data for demonstration
       { title: "Item itemName", field: "itemName" },
       { title: "Category", field: "category" },
       { title: "Quantity", field: "quantity", type: "numeric" },
       { title: "Location", field: "location" }
     ],
+    // putting dummy data for demonstration purpose
     data: [
       {
         itemName: "Bread",
@@ -28,9 +31,10 @@ export default function InventoryTable() {
 
   return (
     <div>
+      {/* the start of the table  */}
+      {/* <Alert severity="success">This is a success alert — check it out!</Alert> */}
       <MaterialTable
-        // to add 'Export' function
-
+        // utilize export,slection, and grouping functions   from material-table library
         options={{
           exportButton: true,
           selection: true,
@@ -71,6 +75,16 @@ export default function InventoryTable() {
                 setState(prevState => {
                   const data = [...prevState.data];
                   data.splice(data.indexOf(oldData), 1);
+                  return { ...prevState, data };
+                });
+              }, 600);
+            }),
+          allRowsDelete: oldData =>
+            new Promise(resolve => {
+              setTimeout(() => {
+                resolve();
+                setState(prevState => {
+                  const data = [];
                   return { ...prevState, data };
                 });
               }, 600);

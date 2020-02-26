@@ -1,14 +1,17 @@
 import React from "react";
+//import bootstrap library
 import bootstrap from "bootstrap";
 // import the inventory and gome classess
 import Inventory from "./Inventory";
 import Home from "./Home";
+// import the page icon
 import Logo from "../stock.png";
-
+// import the router
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
+// import the moment-js to display the time
 import moment from "moment";
 
+// import the axios for API request
 import axios from "axios";
 
 export default class NavBar extends React.Component {
@@ -32,6 +35,7 @@ export default class NavBar extends React.Component {
     return (
       <Router>
         <div>
+          {/* start of bootstrap navbar  */}
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">
               <img src={Logo} width="50px"></img>
@@ -68,11 +72,11 @@ export default class NavBar extends React.Component {
               </span>
             </div>
           </nav>
+          {/* start of bootstrap navbar  */}
         </div>
 
         <div>
-          {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
+          {/* the pages router  */}
           <Switch>
             <Route path="/inventory">
               <Inventory />

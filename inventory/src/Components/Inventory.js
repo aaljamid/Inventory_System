@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+
+// import the InvListContainer
 import InvListContainer from "./InvListContainer";
 
 export class Inventory extends Component {
