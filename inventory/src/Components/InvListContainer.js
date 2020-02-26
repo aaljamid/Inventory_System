@@ -1,6 +1,7 @@
 import React from "react";
 import ListItem from "./ListItem";
 import ListTable from "./ListTable";
+
 export default class InvListContainer extends React.Component {
   render() {
     const allItems = this.props.toAddItems.map(function(task, index) {
