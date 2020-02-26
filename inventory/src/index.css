@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(149, 184, 94);
+  background-image: url("https://source.unsplash.com/random");
 }
 
 .container {
@@ -38,6 +38,8 @@ footer {
 }
 
 .homeStyle {
+  background-color: #0e6973;
+  display: inline-block;
   /* background-image: url("https://images.unsplash.com/photo-1496535731694-9673400f50c9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"); */
   /* background-image: url("https://images.unsplash.com/photo-1530107973768-581951e62d34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80"); */
 }
