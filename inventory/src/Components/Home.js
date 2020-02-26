@@ -22,7 +22,7 @@ export class Home extends Component {
   render() {
     return (
       <div className="homeStyle">
-        <h1> HOME</h1>
+        <h1> HOME.v2</h1>
       </div>
     );
   }
