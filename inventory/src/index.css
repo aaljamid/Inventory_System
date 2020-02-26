@@ -33,6 +33,15 @@ footer {
   color: #c1d0d9;
 }
 
+.column.headerStyle {
+  background-color: balck;
+}
+
+.homeStyle {
+  /* background-image: url("https://images.unsplash.com/photo-1496535731694-9673400f50c9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"); */
+  /* background-image: url("https://images.unsplash.com/photo-1530107973768-581951e62d34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80"); */
+}
+
 /* Color Theme Swatches in Hex */
 .Travelers-couple-look-at-the-mountain-lake.-Travel-and-active-life-concept-with-team.-Adventure-and-travel-in-the-mountains-region-in-the-Austria.-Travel---image-1-hex {
   color: #f26d85;

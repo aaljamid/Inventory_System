@@ -1,10 +1,27 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.css";
+import axios from "axios";
 
 export class Home extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      src: ""
+    };
+  }
+
+  componentDidMount() {
+    const url =
+      "https://api.unsplash.com/photos/random?client_id=c9ce7ec20ba10268b6fbac6164f37ac58339814bae875199a42ba551bdc38702";
+    axios.get(url).then(res => {
+      console.log(res.data);
+
+      // this.setState({ time: res.data.datetime });
+    });
+  }
   render() {
     return (
-      <div>
+      <div className="homeStyle">
         <h1> HOME</h1>
       </div>
     );
