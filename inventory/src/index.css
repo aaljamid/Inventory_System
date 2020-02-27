@@ -1,5 +1,8 @@
 body {
-  background-image: url("https://source.unsplash.com/random");
+  font-family: "El Messiri";
+  color: #bf214b;
+  /* background-image: url("https://source.unsplash.com/random");
+  background-image: url(); */
 }
 
 .container {
@@ -40,8 +43,12 @@ footer {
 .homeStyle {
   background-color: #0e6973;
   display: inline-block;
-  /* background-image: url("https://images.unsplash.com/photo-1496535731694-9673400f50c9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"); */
-  /* background-image: url("https://images.unsplash.com/photo-1530107973768-581951e62d34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80"); */
+}
+
+.cardStyle {
+  margin: 10px;
+  color: #bf214b;
+  font-family: "El Messiri";
 }
 
 /* Color Theme Swatches in Hex */
@@ -59,38 +66,4 @@ footer {
 }
 .Travelers-couple-look-at-the-mountain-lake.-Travel-and-active-life-concept-with-team.-Adventure-and-travel-in-the-mountains-region-in-the-Austria.-Travel---image-5-hex {
   color: #0e7373;
-}
-
-/* Color Theme Swatches in RGBA */
-.Travelers-couple-look-at-the-mountain-lake.-Travel-and-active-life-concept-with-team.-Adventure-and-travel-in-the-mountains-region-in-the-Austria.-Travel---image-1-rgba {
-  color: rgba(242, 109, 133, 1);
-}
-.Travelers-couple-look-at-the-mountain-lake.-Travel-and-active-life-concept-with-team.-Adventure-and-travel-in-the-mountains-region-in-the-Austria.-Travel---image-2-rgba {
-  color: rgba(191, 32, 74, 1);
-}
-.Travelers-couple-look-at-the-mountain-lake.-Travel-and-active-life-concept-with-team.-Adventure-and-travel-in-the-mountains-region-in-the-Austria.-Travel---image-3-rgba {
-  color: rgba(192, 207, 216, 1);
-}
-.Travelers-couple-look-at-the-mountain-lake.-Travel-and-active-life-concept-with-team.-Adventure-and-travel-in-the-mountains-region-in-the-Austria.-Travel---image-4-rgba {
-  color: rgba(13, 104, 114, 1);
-}
-.Travelers-couple-look-at-the-mountain-lake.-Travel-and-active-life-concept-with-team.-Adventure-and-travel-in-the-mountains-region-in-the-Austria.-Travel---image-5-rgba {
-  color: rgba(13, 114, 114, 1);
-}
-
-/* Color Theme Swatches in HSLA */
-.Travelers-couple-look-at-the-mountain-lake.-Travel-and-active-life-concept-with-team.-Adventure-and-travel-in-the-mountains-region-in-the-Austria.-Travel---image-1-hsla {
-  color: hsla(348, 83, 68, 1);
-}
-.Travelers-couple-look-at-the-mountain-lake.-Travel-and-active-life-concept-with-team.-Adventure-and-travel-in-the-mountains-region-in-the-Austria.-Travel---image-2-hsla {
-  color: hsla(343, 70, 43, 1);
-}
-.Travelers-couple-look-at-the-mountain-lake.-Travel-and-active-life-concept-with-team.-Adventure-and-travel-in-the-mountains-region-in-the-Austria.-Travel---image-3-hsla {
-  color: hsla(202, 23, 80, 1);
-}
-.Travelers-couple-look-at-the-mountain-lake.-Travel-and-active-life-concept-with-team.-Adventure-and-travel-in-the-mountains-region-in-the-Austria.-Travel---image-4-hsla {
-  color: hsla(185, 78, 25, 1);
-}
-.Travelers-couple-look-at-the-mountain-lake.-Travel-and-active-life-concept-with-team.-Adventure-and-travel-in-the-mountains-region-in-the-Austria.-Travel---image-5-hsla {
-  color: hsla(180, 78, 25, 1);
 }
