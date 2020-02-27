@@ -24,7 +24,7 @@ The system is applicable to any type of business that requires an inventory syst
 - Axios
 - Material-UI
 
-## Installing all the dependencies
+## Installing All The Dependencies
 
 Bootstrap
 
