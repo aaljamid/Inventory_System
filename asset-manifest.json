@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Inventory_System/static/css/main.7de830cc.chunk.css",
-    "main.js": "/Inventory_System/static/js/main.ab0957ca.chunk.js",
-    "main.js.map": "/Inventory_System/static/js/main.ab0957ca.chunk.js.map",
+    "main.css": "/Inventory_System/static/css/main.2e437bd9.chunk.css",
+    "main.js": "/Inventory_System/static/js/main.255aee27.chunk.js",
+    "main.js.map": "/Inventory_System/static/js/main.255aee27.chunk.js.map",
     "runtime-main.js": "/Inventory_System/static/js/runtime-main.14dbee51.js",
     "runtime-main.js.map": "/Inventory_System/static/js/runtime-main.14dbee51.js.map",
     "static/css/2.3db4eb7d.chunk.css": "/Inventory_System/static/css/2.3db4eb7d.chunk.css",
-    "static/js/2.f95be593.chunk.js": "/Inventory_System/static/js/2.f95be593.chunk.js",
-    "static/js/2.f95be593.chunk.js.map": "/Inventory_System/static/js/2.f95be593.chunk.js.map",
+    "static/js/2.af0eeee3.chunk.js": "/Inventory_System/static/js/2.af0eeee3.chunk.js",
+    "static/js/2.af0eeee3.chunk.js.map": "/Inventory_System/static/js/2.af0eeee3.chunk.js.map",
     "index.html": "/Inventory_System/index.html",
-    "precache-manifest.01526c77b139e4351f436faa3d23bf83.js": "/Inventory_System/precache-manifest.01526c77b139e4351f436faa3d23bf83.js",
+    "precache-manifest.67061f14a9f34046b2a1b47581bc9d8f.js": "/Inventory_System/precache-manifest.67061f14a9f34046b2a1b47581bc9d8f.js",
     "service-worker.js": "/Inventory_System/service-worker.js",
     "static/css/2.3db4eb7d.chunk.css.map": "/Inventory_System/static/css/2.3db4eb7d.chunk.css.map",
-    "static/css/main.7de830cc.chunk.css.map": "/Inventory_System/static/css/main.7de830cc.chunk.css.map",
-    "static/js/2.f95be593.chunk.js.LICENSE.txt": "/Inventory_System/static/js/2.f95be593.chunk.js.LICENSE.txt",
+    "static/css/main.2e437bd9.chunk.css.map": "/Inventory_System/static/css/main.2e437bd9.chunk.css.map",
+    "static/js/2.af0eeee3.chunk.js.LICENSE.txt": "/Inventory_System/static/js/2.af0eeee3.chunk.js.LICENSE.txt",
     "static/media/stock.png": "/Inventory_System/static/media/stock.47bb1941.png"
   },
   "entrypoints": [
     "static/js/runtime-main.14dbee51.js",
     "static/css/2.3db4eb7d.chunk.css",
-    "static/js/2.f95be593.chunk.js",
-    "static/css/main.7de830cc.chunk.css",
-    "static/js/main.ab0957ca.chunk.js"
+    "static/js/2.af0eeee3.chunk.js",
+    "static/css/main.2e437bd9.chunk.css",
+    "static/js/main.255aee27.chunk.js"
   ]
 }
