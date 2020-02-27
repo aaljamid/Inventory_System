@@ -36,19 +36,8 @@ footer {
   color: #c1d0d9;
 }
 
-.column.headerStyle {
-  background-color: balck;
-}
-
-.homeStyle {
-  background-color: #0e6973;
-  display: inline-block;
-}
-
 .cardStyle {
   margin: 10px;
-  color: #bf214b;
-  font-family: "El Messiri";
 }
 
 /* Color Theme Swatches in Hex */

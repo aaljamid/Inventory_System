@@ -15,6 +15,8 @@ export class Inventory extends Component {
 
 export default Inventory;
 
+// #####################################  excluded #######################
+
 // import React from "react";
 // import InvListContainer from "./InvListContainer";
 
