@@ -11,15 +11,16 @@ export default function InventoryTable() {
   // const removeFunction = () => {
   //   this.setState({ data: [] });
   // };
+
   const [state, setState] = React.useState({
     columns: [
       // putting dummy data for demonstration
       { title: "Item itemName", field: "itemName" },
       { title: "Category", field: "category" },
       { title: "Quantity", field: "quantity", type: "numeric" },
-      { title: "Location", field: "location" },
-      { title: "Mark As", field: "marked", type: "numeric" }
+      { title: "Location", field: "location" }
     ],
+
     // putting dummy data for demonstration purpose
     data: [
       {
@@ -29,7 +30,19 @@ export default function InventoryTable() {
         location: "ABC Warehouse"
       },
       {
+        itemName: "Cookies",
+        category: "Food",
+        quantity: 15,
+        location: "ABC Warehouse"
+      },
+      {
         itemName: "Water",
+        category: "Drink",
+        quantity: 20,
+        location: "XYZ Warehouse"
+      },
+      {
+        itemName: "Juice",
         category: "Drink",
         quantity: 20,
         location: "XYZ Warehouse"
@@ -99,9 +112,20 @@ export default function InventoryTable() {
             })
         }}
       />
-      <Button variant="contained" color="secondary" startIcon={<DeleteIcon />}>
+      <Button
+        onClick={() => {
+          console.log("remove");
+          setState({
+            data: []
+          });
+        }}
+        variant="contained"
+        color="secondary"
+        startIcon={<DeleteIcon />}
+      >
         Delete all
       </Button>
+      {console.log(state.data)}
     </div>
   );
 }
