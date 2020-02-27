@@ -22,24 +22,38 @@ The system is applicable to any type of business that requires an inventory syst
 
 ## Installing all the dependencies
 
-• Bootstrap
-a. Install: npm install react-bootstrap bootstrap –save
-b. Import to index.js: import "bootstrap/dist/css/bootstrap.css";
-• Moment.js
-c. Install: npm install moment
-d. Import: import moment from "moment";
-• Axios
-a. Install: npm install axios
-b. Import:
-• React Router
-c. Install: npm install react-router-dom
-d. import: import{ BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-• FontAwesome
-e. Install: npm i --save @fortawesome/fontawesome-svg-core @fortawesome/free
-solid-svg-icons @fortawesome/react-fontawesome
-f. import: { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import: { faCoffee } from '@fortawesome/free-solid-svg-icons'
-• Marital UI
-a. Install: npm install @material-ui/core
-• material-table
-a. Install: npm install material-table –save
+Bootstrap
+
+- Install: npm install react-bootstrap bootstrap –save
+- Import to index.js: import "bootstrap/dist/css/bootstrap.css";
+
+Moment.js
+
+- Install: npm install moment
+- Import: import moment from "moment";
+
+Axios
+
+- Install: npm install axios
+- Import:
+
+React Router
+
+- Install: npm install react-router-dom
+- import: import{ BrowserRouter as Router, - Switch, Route, Link } from "react-router-dom";
+
+FontAwesome
+
+- Install: npm i --save @fortawesome fontawesome-svg-core @fortawesome/free
+  solid-svg-icons @fortawesome/react-fontawesome
+
+- Import: { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+- Import: { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
+Marital UI
+
+- Install: npm install @material-ui/core
+
+material-table
+
+- Install: npm install material-table –save
