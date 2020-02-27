@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Inventory_System/static/css/main.bc47c133.chunk.css",
-    "main.js": "/Inventory_System/static/js/main.9b0cd97a.chunk.js",
-    "main.js.map": "/Inventory_System/static/js/main.9b0cd97a.chunk.js.map",
+    "main.js": "/Inventory_System/static/js/main.1a00a498.chunk.js",
+    "main.js.map": "/Inventory_System/static/js/main.1a00a498.chunk.js.map",
     "runtime-main.js": "/Inventory_System/static/js/runtime-main.14dbee51.js",
     "runtime-main.js.map": "/Inventory_System/static/js/runtime-main.14dbee51.js.map",
     "static/css/2.3db4eb7d.chunk.css": "/Inventory_System/static/css/2.3db4eb7d.chunk.css",
     "static/js/2.af0eeee3.chunk.js": "/Inventory_System/static/js/2.af0eeee3.chunk.js",
     "static/js/2.af0eeee3.chunk.js.map": "/Inventory_System/static/js/2.af0eeee3.chunk.js.map",
     "index.html": "/Inventory_System/index.html",
-    "precache-manifest.5743f88bc6e8e1e7c47f20c2ebc14893.js": "/Inventory_System/precache-manifest.5743f88bc6e8e1e7c47f20c2ebc14893.js",
+    "precache-manifest.0d1b8576ec503a1ef7964b6b36d35020.js": "/Inventory_System/precache-manifest.0d1b8576ec503a1ef7964b6b36d35020.js",
     "service-worker.js": "/Inventory_System/service-worker.js",
     "static/css/2.3db4eb7d.chunk.css.map": "/Inventory_System/static/css/2.3db4eb7d.chunk.css.map",
     "static/css/main.bc47c133.chunk.css.map": "/Inventory_System/static/css/main.bc47c133.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.3db4eb7d.chunk.css",
     "static/js/2.af0eeee3.chunk.js",
     "static/css/main.bc47c133.chunk.css",
-    "static/js/main.9b0cd97a.chunk.js"
+    "static/js/main.1a00a498.chunk.js"
   ]
 }
