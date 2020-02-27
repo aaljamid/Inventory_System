@@ -37,7 +37,7 @@ export default function MediaCard() {
         />
         <CardContent>
           <Typography gutterBottom variant="h4" component="h2">
-            Servises
+            Services
           </Typography>
           <Typography variant="body2" color="inherit" component="p">
             Keep track of your inventory.
