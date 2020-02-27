@@ -1,5 +1,9 @@
 # Project-2_Inventory_System
 
+## Link:
+
+https://aaljamid.github.io/Inventory_System/#/
+
 This project is about creating an inventory system using React-JS.
 The system is applicable to any type of business that requires an inventory system. The application helps managing the inventory o by proving tracking the quantity, date entered, and the location stored.
 

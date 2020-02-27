@@ -8,9 +8,6 @@ function App() {
     <Router>
       <HashRouter>
         <NavBar />
-        <footer>
-          <h1>Footer</h1>
-        </footer>
       </HashRouter>
     </Router>
   );
